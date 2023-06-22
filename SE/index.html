@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kalkulator Konversi Suhu</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Kalkulator Konversi Suhu</h1>
+
+  <form id="temperature-form">
+    <label for="temperature-input">Masukkan Suhu:</label>
+    <input type="number" id="temperature-input" required>
+    <div class="buttons-container">
+      <button type="button" id="convert-btn">Konversi</button>
+      <button type="button" id="reset-btn">Reset</button>
+      <button type="button" id="reverse-btn">Reverse</button>
+    </div>
+  </form>
+
+  <div id="result-container">
+    <p id="result"></p>
+    <p id="explanation"></p>
+  </div>
+
+  <script src="script.js"></script>
+
+  <form id="temperature-form-result">
+    <label for="temperature-input-result">Hasil Konversi Suhu:</label>
+    <input type="number" id="temperature-input" required>
+    <br><br>
+    <label for="explanation">Hasil Penjelasan:</label>
+    <input style="width: 500px; height: 200px;" type="text" id="temperature-input" required>
+  </form>
+</body>
+</html>
